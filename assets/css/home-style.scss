@@ -222,18 +222,18 @@
           background: #00b8de url(../images/pattern/pattern-03.svg) no-repeat;
           border-radius: 5px;
 
-          &::before {
-            content: "";
-            background: rgba(0, 184, 222, 0.2);
-            border-radius: 14px;
-            display: flex;
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            top: 25px;
-            left: 16px;
-            filter: blur(20px) grayscale(20%);
-          }
+          // &::before {
+          //   content: "";
+          //   background: rgba(0, 184, 222, 0.2);
+          //   border-radius: 14px;
+          //   display: flex;
+          //   height: 100%;
+          //   width: 100%;
+          //   position: absolute;
+          //   top: 25px;
+          //   left: 16px;
+          //   filter: blur(20px) grayscale(20%);
+          // }
 
           .icon-div {
             .icon-span {

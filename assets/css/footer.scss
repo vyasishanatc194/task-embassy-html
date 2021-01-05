@@ -7,10 +7,27 @@ footer {
   margin: 0;
   position: relative;
   background-color: #00b8de;
+  background: #00b8de url(../images/background/footer-bg.svg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
 
   .footer-content-row {
     padding: 40px 0 60px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    &::before {
+      content: "";
+      background: url(../images/pattern/pattern-07.svg) no-repeat;
+      display: inline-block;
+      background-size: contain;
+      background-position: center;
+      height: 152px;
+      width: 154px;
+      position: absolute;
+      top: -70px;
+      right: -50px;
+      opacity: 0.5;
+    }
 
     .about-desc-footer-div {
       padding: 0 10px 0 0;
@@ -132,6 +149,10 @@ footer {
     .footer-content-row {
       padding: 40px 0 10px 0;
 
+      &::before {
+        right: 0;
+      }
+
       .footer-nav-list-inner {
         padding: 15px 0 0 0;
 
@@ -180,6 +201,10 @@ footer {
 
     .footer-content-row {
       padding: 40px 0 10px 0;
+
+      &::before {
+        right: 0;
+      }
 
       .footer-nav-list-inner {
         .footer-list-ul {

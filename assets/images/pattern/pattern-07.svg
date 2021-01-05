@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="152px" viewBox="0 0 148 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7 Copy 16</title>
+    <defs>
+        <circle id="path-1" cx="6" cy="4" r="4"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="6" cy="62" r="4"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="6" cy="32" r="4"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <circle id="path-7" cx="6" cy="90" r="4"></circle>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <circle id="path-9" cx="34" cy="4" r="4"></circle>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <circle id="path-11" cx="34" cy="62" r="4"></circle>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <circle id="path-13" cx="34" cy="32" r="4"></circle>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <circle id="path-15" cx="34" cy="90" r="4"></circle>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <circle id="path-17" cx="62" cy="4" r="4"></circle>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <circle id="path-19" cx="62" cy="62" r="4"></circle>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <circle id="path-21" cx="62" cy="32" r="4"></circle>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <circle id="path-23" cx="62" cy="90" r="4"></circle>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <circle id="path-25" cx="90" cy="4" r="4"></circle>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <circle id="path-27" cx="90" cy="62" r="4"></circle>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <circle id="path-29" cx="90" cy="32" r="4"></circle>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <circle id="path-31" cx="90" cy="90" r="4"></circle>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <circle id="path-33" cx="118" cy="4" r="4"></circle>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <circle id="path-35" cx="118" cy="62" r="4"></circle>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <circle id="path-37" cx="118" cy="32" r="4"></circle>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <circle id="path-39" cx="118" cy="90" r="4"></circle>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <circle id="path-41" cx="146" cy="4" r="4"></circle>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <circle id="path-43" cx="146" cy="62" r="4"></circle>
+        <mask id="mask-44" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+        <circle id="path-45" cx="146" cy="32" r="4"></circle>
+        <mask id="mask-46" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-45"></use>
+        </mask>
+        <circle id="path-47" cx="146" cy="90" r="4"></circle>
+        <mask id="mask-48" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-47"></use>
+        </mask>
+        <circle id="path-49" cx="6" cy="120" r="4"></circle>
+        <mask id="mask-50" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-49"></use>
+        </mask>
+        <circle id="path-51" cx="6" cy="148" r="4"></circle>
+        <mask id="mask-52" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-51"></use>
+        </mask>
+        <circle id="path-53" cx="34" cy="120" r="4"></circle>
+        <mask id="mask-54" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-53"></use>
+        </mask>
+        <circle id="path-55" cx="34" cy="148" r="4"></circle>
+        <mask id="mask-56" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-55"></use>
+        </mask>
+        <circle id="path-57" cx="62" cy="120" r="4"></circle>
+        <mask id="mask-58" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-57"></use>
+        </mask>
+        <circle id="path-59" cx="62" cy="148" r="4"></circle>
+        <mask id="mask-60" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-59"></use>
+        </mask>
+        <circle id="path-61" cx="90" cy="120" r="4"></circle>
+        <mask id="mask-62" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-61"></use>
+        </mask>
+        <circle id="path-63" cx="90" cy="148" r="4"></circle>
+        <mask id="mask-64" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-63"></use>
+        </mask>
+        <circle id="path-65" cx="118" cy="120" r="4"></circle>
+        <mask id="mask-66" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-65"></use>
+        </mask>
+        <circle id="path-67" cx="118" cy="148" r="4"></circle>
+        <mask id="mask-68" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-67"></use>
+        </mask>
+        <circle id="path-69" cx="146" cy="120" r="4"></circle>
+        <mask id="mask-70" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-69"></use>
+        </mask>
+        <circle id="path-71" cx="146" cy="148" r="4"></circle>
+        <mask id="mask-72" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-71"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="13,8">
+        <g id="Group-7-Copy-16" transform="translate(-2.000000, 0.000000)" stroke="#FFFFFF" stroke-width="2">
+            <use id="Oval" mask="url(#mask-2)" xlink:href="#path-1"></use>
+            <use id="Oval-Copy-13" mask="url(#mask-4)" xlink:href="#path-3"></use>
+            <use id="Oval-Copy-7" mask="url(#mask-6)" transform="translate(6.000000, 32.000000) rotate(140.000000) translate(-6.000000, -32.000000) " xlink:href="#path-5"></use>
+            <use id="Oval-Copy-14" mask="url(#mask-8)" transform="translate(6.000000, 90.000000) rotate(140.000000) translate(-6.000000, -90.000000) " xlink:href="#path-7"></use>
+            <use id="Oval-Copy-2" mask="url(#mask-10)" xlink:href="#path-9"></use>
+            <use id="Oval-Copy-15" mask="url(#mask-12)" xlink:href="#path-11"></use>
+            <use id="Oval-Copy-8" mask="url(#mask-14)" transform="translate(34.000000, 32.000000) rotate(140.000000) translate(-34.000000, -32.000000) " xlink:href="#path-13"></use>
+            <use id="Oval-Copy-16" mask="url(#mask-16)" transform="translate(34.000000, 90.000000) rotate(140.000000) translate(-34.000000, -90.000000) " xlink:href="#path-15"></use>
+            <use id="Oval-Copy-3" mask="url(#mask-18)" xlink:href="#path-17"></use>
+            <use id="Oval-Copy-17" mask="url(#mask-20)" xlink:href="#path-19"></use>
+            <use id="Oval-Copy-9" mask="url(#mask-22)" transform="translate(62.000000, 32.000000) rotate(140.000000) translate(-62.000000, -32.000000) " xlink:href="#path-21"></use>
+            <use id="Oval-Copy-18" mask="url(#mask-24)" transform="translate(62.000000, 90.000000) rotate(140.000000) translate(-62.000000, -90.000000) " xlink:href="#path-23"></use>
+            <use id="Oval-Copy-4" mask="url(#mask-26)" xlink:href="#path-25"></use>
+            <use id="Oval-Copy-19" mask="url(#mask-28)" xlink:href="#path-27"></use>
+            <use id="Oval-Copy-10" mask="url(#mask-30)" transform="translate(90.000000, 32.000000) rotate(140.000000) translate(-90.000000, -32.000000) " xlink:href="#path-29"></use>
+            <use id="Oval-Copy-20" mask="url(#mask-32)" transform="translate(90.000000, 90.000000) rotate(140.000000) translate(-90.000000, -90.000000) " xlink:href="#path-31"></use>
+            <use id="Oval-Copy-5" mask="url(#mask-34)" xlink:href="#path-33"></use>
+            <use id="Oval-Copy-21" mask="url(#mask-36)" xlink:href="#path-35"></use>
+            <use id="Oval-Copy-11" mask="url(#mask-38)" transform="translate(118.000000, 32.000000) rotate(140.000000) translate(-118.000000, -32.000000) " xlink:href="#path-37"></use>
+            <use id="Oval-Copy-22" mask="url(#mask-40)" transform="translate(118.000000, 90.000000) rotate(140.000000) translate(-118.000000, -90.000000) " xlink:href="#path-39"></use>
+            <use id="Oval-Copy-6" mask="url(#mask-42)" xlink:href="#path-41"></use>
+            <use id="Oval-Copy-23" mask="url(#mask-44)" xlink:href="#path-43"></use>
+            <use id="Oval-Copy-12" mask="url(#mask-46)" transform="translate(146.000000, 32.000000) rotate(140.000000) translate(-146.000000, -32.000000) " xlink:href="#path-45"></use>
+            <use id="Oval-Copy-24" mask="url(#mask-48)" transform="translate(146.000000, 90.000000) rotate(140.000000) translate(-146.000000, -90.000000) " xlink:href="#path-47"></use>
+            <use id="Oval-Copy-36" mask="url(#mask-50)" xlink:href="#path-49"></use>
+            <use id="Oval-Copy-35" mask="url(#mask-52)" transform="translate(6.000000, 148.000000) rotate(140.000000) translate(-6.000000, -148.000000) " xlink:href="#path-51"></use>
+            <use id="Oval-Copy-34" mask="url(#mask-54)" xlink:href="#path-53"></use>
+            <use id="Oval-Copy-33" mask="url(#mask-56)" transform="translate(34.000000, 148.000000) rotate(140.000000) translate(-34.000000, -148.000000) " xlink:href="#path-55"></use>
+            <use id="Oval-Copy-32" mask="url(#mask-58)" xlink:href="#path-57"></use>
+            <use id="Oval-Copy-31" mask="url(#mask-60)" transform="translate(62.000000, 148.000000) rotate(140.000000) translate(-62.000000, -148.000000) " xlink:href="#path-59"></use>
+            <use id="Oval-Copy-30" mask="url(#mask-62)" xlink:href="#path-61"></use>
+            <use id="Oval-Copy-29" mask="url(#mask-64)" transform="translate(90.000000, 148.000000) rotate(140.000000) translate(-90.000000, -148.000000) " xlink:href="#path-63"></use>
+            <use id="Oval-Copy-28" mask="url(#mask-66)" xlink:href="#path-65"></use>
+            <use id="Oval-Copy-27" mask="url(#mask-68)" transform="translate(118.000000, 148.000000) rotate(140.000000) translate(-118.000000, -148.000000) " xlink:href="#path-67"></use>
+            <use id="Oval-Copy-26" mask="url(#mask-70)" xlink:href="#path-69"></use>
+            <use id="Oval-Copy-25" mask="url(#mask-72)" transform="translate(146.000000, 148.000000) rotate(140.000000) translate(-146.000000, -148.000000) " xlink:href="#path-71"></use>
+        </g>
+    </g>
+</svg>
