@@ -1,0 +1,1096 @@
+@mixin pro-nova-700 {
+  font-family: "Proxima Nova Th";
+}
+
+.main-banner-section {
+  padding: 90px 0 0 0;
+  margin: 0;
+  position: relative;
+  background: #02b7de url(../images/background/bg-banner-01.svg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-height: 700px;
+
+  .banner-div {
+    padding: 50px 0 50px 0;
+    margin: 0;
+    position: relative;
+    height: auto;
+    min-height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .content-banner-root {
+    padding: 0 0 90px 0;
+    margin: 0;
+    position: relative;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .text-content {
+      padding: 40px 0;
+      margin: 0 0;
+      max-width: 455px;
+      width: 100%;
+    }
+
+    .block {
+      display: block;
+    }
+
+    h1 {
+      padding: 0;
+      margin: 0 0 30px 0;
+      position: relative;
+      display: block;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 55px;
+      color: #fff;
+      letter-spacing: 0;
+      font-family: "Nexa", sans-serif;
+    }
+
+    .button-group-div {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .content-banner {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .img-banner-div {
+    padding: 30px 0;
+    margin: 0;
+    position: relative;
+
+    .img-character {
+      width: 100%;
+    }
+  }
+}
+
+.services-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .services-div {
+    padding: 100px 0 80px 0;
+    margin: 0;
+    position: relative;
+
+    &::before {
+      content: "";
+      background: url(../images/pattern/pattern-04.svg) no-repeat;
+      display: inline-block;
+      background-size: cover;
+      background-position: bottom left;
+      height: 212px;
+      width: 173px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    &::after {
+      content: "";
+      background: url(../images/pattern/pattern-05.svg) no-repeat;
+      display: inline-block;
+      background-size: cover;
+      background-position: center right;
+      height: 491px;
+      width: 223px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .heading-title-div {
+      padding: 0;
+      margin: 0 auto 40px auto;
+      position: relative;
+      z-index: 2;
+
+      .pattern-custom-row {
+        margin: 0 auto 15px auto;
+        text-align: center;
+
+        .img-pattern {
+          object-fit: contain;
+        }
+      }
+
+      h2 {
+        padding: 0;
+        margin: 0 0 10px 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.4;
+        letter-spacing: 0;
+        color: #262626;
+        @include pro-nova-700();
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        color: rgba(68, 68, 68, 0.9);
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+
+  .services-card-root {
+    position: relative;
+    z-index: 2;
+
+    .services-card-box {
+      .services-card-box-inner {
+        padding: 30px;
+        margin: 0 0 16px 0;
+        position: relative;
+        border: 1px solid rgba(38, 38, 38, 0.04);
+        background: transparent;
+        background-size: cover;
+        background-position: center;
+
+        .icon-div {
+          padding: 0;
+          margin: 0 0 30px 0;
+          position: relative;
+          z-index: 2;
+
+          .icon-span {
+            background: rgba(0, 184, 222, 0.1);
+            border: 1px solid #00b8de;
+            height: 52px;
+            width: 52px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100px;
+          }
+        }
+
+        .content-div {
+          position: relative;
+          z-index: 2;
+
+          h4 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 1.4;
+            color: #262626;
+            margin: 0 0 10px 0;
+            display: block;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.3;
+            color: rgba(38, 38, 38, 0.6);
+            display: block;
+          }
+        }
+      }
+
+      &:hover {
+        .services-card-box-inner {
+          background: #00b8de url(../images/pattern/pattern-03.svg) no-repeat;
+          border-radius: 5px;
+
+          &::before {
+            content: "";
+            background: rgba(0, 184, 222, 0.2);
+            border-radius: 14px;
+            display: flex;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 25px;
+            left: 16px;
+            filter: blur(20px) grayscale(20%);
+          }
+
+          .icon-div {
+            .icon-span {
+              background: rgba(255, 255, 255, 0.3);
+              border: 1px solid #fff;
+            }
+          }
+
+          .content-div {
+            h4 {
+              color: rgba(255, 255, 255, 0.9);
+            }
+
+            p {
+              color: rgba(255, 255, 255, 0.7);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.test-task-automation-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: #00b8de url(../images/background/bg-banner-02.svg) no-repeat;
+  background-size: cover;
+
+  .test-task-automation-div {
+    padding: 30px 0 30px 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .img-banner-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .content-div {
+    padding: 30px 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .pattern-custom-row {
+      margin: 0 0 20px 0;
+    }
+
+    .text-content-div {
+      h2 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.4;
+        margin: 0 0 10px 0;
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.9);
+        @include pro-nova-700();
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0 0 20px 0;
+        display: block;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .btn-div {
+        padding: 20px 0 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+.custom-list-check-div {
+  position: relative;
+
+  .custom-list-check-ul {
+    position: relative;
+
+    li {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.5;
+      color: rgba(68, 68, 68, 0.9);
+      display: block;
+      margin: 0 0 15px 0;
+      padding: 0 0 0 32px;
+      position: relative;
+
+      &::before {
+        content: "";
+        height: 16px;
+        width: 16px;
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='16px' height='16px' viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3EGroup 14%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Group-14'%3E%3Ccircle id='Oval-Copy-40' fill='%2300B8DE' cx='8' cy='8' r='8'%3E%3C/circle%3E%3Cpolyline id='Path-4-Copy-5' stroke='%23FFFFFF' stroke-width='1.79999995' stroke-linecap='round' points='5 7.6 7.25 10 11 6'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        display: inline-block;
+        background-size: contain;
+        position: absolute;
+        left: 0;
+        top: 2px;
+      }
+    }
+  }
+}
+
+.software-testing-automation-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: #fff;
+
+  .software-testing-automation-div {
+    padding: 50px 0 50px 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .img-banner-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .content-div {
+    padding: 30px 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .pattern-custom-row {
+      margin: 0 0 20px 0;
+    }
+
+    .text-content-div {
+      h2 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.4;
+        margin: 0 0 20px 0;
+        display: inline-block;
+        color: #262626;
+        @include pro-nova-700();
+        max-width: 500px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0 0 20px 0;
+        display: block;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .btn-div {
+        padding: 20px 0 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+.testing-assistance-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: #fafafa;
+
+  .testing-assistance-div {
+    padding: 70px 0 70px 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .img-banner-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .content-div {
+    padding: 30px 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .pattern-custom-row {
+      margin: 0 0 20px 0;
+    }
+
+    .text-content-div {
+      h2 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.4;
+        margin: 0 0 20px 0;
+        display: inline-block;
+        color: #262626;
+        @include pro-nova-700();
+        max-width: 500px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0 0 20px 0;
+        display: block;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .btn-div {
+        padding: 20px 0 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+.pricing-card-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: #fff;
+
+  .pricing-card-div {
+    padding: 100px 0 80px 0;
+    margin: 0;
+    position: relative;
+
+    .heading-title-div {
+      padding: 0;
+      margin: 0 auto 50px auto;
+      position: relative;
+      z-index: 2;
+
+      .pattern-custom-row {
+        margin: 0 auto 15px auto;
+        text-align: center;
+
+        .img-pattern {
+          object-fit: contain;
+        }
+      }
+
+      h2 {
+        padding: 0;
+        margin: 0 0 10px 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.4;
+        letter-spacing: 0;
+        color: #262626;
+        @include pro-nova-700();
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        color: rgba(68, 68, 68, 0.9);
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+
+  .pricing-card-root {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+
+    &::before {
+      content: "";
+      background: url(../images/pattern/pattern-06.svg) no-repeat;
+      display: inline-block;
+      background-size: contain;
+      background-position: center;
+      height: 152px;
+      width: 154px;
+      position: absolute;
+      top: -30px;
+      right: -30px;
+    }
+
+    &::after {
+      content: "";
+      background: url(../images/pattern/pattern-06.svg) no-repeat;
+      display: inline-block;
+      background-size: contain;
+      background-position: center;
+      height: 152px;
+      width: 154px;
+      position: absolute;
+      bottom: -15px;
+      left: -45px;
+    }
+
+    .pricing-card-box {
+      background: #fff;
+      border-radius: 7px;
+      position: relative;
+      margin: 0 0 20px 0;
+      z-index: 2;
+
+      .pricing-card-box-top-div {
+        padding: 40px;
+        margin: 0;
+        border-bottom: 1px solid rgba(38, 38, 38, 0.17);
+        position: relative;
+
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 1.4;
+          color: #00b8de;
+          display: block;
+          margin: 0 0 10px 0;
+        }
+
+        h2 {
+          font-weight: 700;
+          font-size: 44px;
+          line-height: 44px;
+          color: #262626;
+          display: flex;
+          align-items: flex-end;
+          flex-wrap: wrap;
+          @include pro-nova-700();
+
+          .txt-span {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0 0 0 5px;
+            font-family: "Proxima Nova Rg", sans-serif;
+            line-height: 28px;
+          }
+        }
+      }
+
+      .content-div {
+        padding: 30px 40px;
+        margin: 0;
+        min-height: 230px;
+        position: relative;
+      }
+
+      .button-group-div {
+        padding: 0 40px 40px 40px;
+        margin: 0 0 0 0;
+        position: relative;
+      }
+
+      &.active {
+        background: #00b8de;
+
+        .pricing-card-box-top-div {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+
+          p {
+            color: #fff;
+          }
+
+          h2 {
+            color: #fff;
+          }
+        }
+
+        .content-div {
+          .custom-list-check-div {
+            .custom-list-check-ul {
+              li {
+                color: #fff;
+
+                &::before {
+                  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='16px' height='16px' viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3EGroup 14 Copy 3%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Group-14-Copy-3'%3E%3Ccircle id='Oval-Copy-40' fill='%23FFFFFF' cx='8' cy='8' r='8'%3E%3C/circle%3E%3Cpolyline id='Path-4-Copy-5' stroke='%2300B8DE' stroke-width='1.79999995' stroke-linecap='round' points='5 7.6 7.25 10 11 6'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+                }
+              }
+            }
+          }
+        }
+
+        .button-group-div {
+          .btn-primary-color {
+            color: #262626;
+            background: #fff;
+            border: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact-us-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .contact-us-div {
+    padding: 100px 0 20px 0;
+    margin: 0 0 -105px 0;
+    position: relative;
+
+    .heading-title-div {
+      padding: 0;
+      margin: 0 auto 40px auto;
+      position: relative;
+      z-index: 2;
+
+      .heading-inner-div {
+        max-width: 490px;
+      }
+
+      .pattern-custom-row {
+        margin: 0 0 15px 0;
+
+        .img-pattern {
+          object-fit: contain;
+        }
+      }
+
+      h2 {
+        padding: 0;
+        margin: 0 0 10px 0;
+        display: block;
+        width: 100%;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.4;
+        letter-spacing: 0;
+        color: #262626;
+        @include pro-nova-700();
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        color: rgba(68, 68, 68, 0.9);
+        display: block;
+      }
+    }
+  }
+
+  .contact-us-root {
+    position: relative;
+    z-index: 2;
+  }
+
+  .contact-us-left-div {
+    padding: 0 0 105px 0;
+
+    .contact-info-div {
+      max-width: 350px;
+
+      .contact-info-box-div {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 20px 0;
+
+        .icon-div {
+          width: 25px;
+
+          .icon-custom {
+            color: #00b8de;
+          }
+        }
+
+        .text-div {
+          width: calc(100% - 25px);
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          color: #012436;
+          letter-spacing: 0;
+          padding: 0 0 0 18px;
+
+          .link {
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-form-card-div {
+    position: relative;
+
+    &::before {
+      content: "";
+      background: url(../images/pattern/pattern-06.svg) no-repeat;
+      display: inline-block;
+      background-size: contain;
+      background-position: center;
+      height: 152px;
+      width: 154px;
+      position: absolute;
+      top: -50px;
+      right: -50px;
+    }
+
+    .form-root-main {
+      background: #fff;
+      box-shadow: 3px 3px 112px 0 rgba(68, 68, 68, 0.07);
+      border-radius: 6px;
+      padding: 40px;
+      margin: 0;
+      position: relative;
+
+      .heading-txt-div {
+        padding: 0;
+        margin: 0 0 30px 0;
+        position: relative;
+
+        h3 {
+          font-size: 24px;
+          color: #262626;
+          font-weight: 400;
+          line-height: 1.5;
+          display: block;
+        }
+      }
+
+      .general-form-btn {
+        .btn-primary-color {
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .pattern-banner-div {
+    margin: 0 auto;
+    max-width: 1200px;
+
+    &::before {
+      content: "";
+      background: url(../images/pattern/pattern-01.svg) no-repeat;
+      background-size: contain;
+      display: block;
+      width: 344px;
+      height: 384px;
+      position: absolute;
+      top: -200px;
+      margin-left: 220px;
+      z-index: 99999;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .main-banner-section {
+    .banner-div {
+      min-height: calc(100vh - 70px);
+    }
+
+    .content-banner-root {
+      padding: 0 0 0 0;
+
+      .content-banner {
+        margin: 0 0 50px 0;
+      }
+
+      h1 {
+        font-size: 30px;
+        line-height: 42px;
+      }
+
+      .button-group-div {
+        .btn.btn-common {
+          &.min-width-230 {
+            min-width: auto;
+          }
+        }
+
+        .btn.btn-common-outline {
+          &.min-width-180 {
+            min-width: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .services-section {
+    .services-div {
+      padding: 80px 0 60px 0;
+
+      &::after {
+        display: none;
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  .test-task-automation-section {
+    background: #00b8de;
+
+    .test-task-automation-div {
+      padding: 80px 0 40px 0;
+    }
+
+    .img-banner-div {
+      margin: 0 0 30px 0;
+    }
+  }
+
+  .software-testing-automation-section {
+    .img-banner-div {
+      margin: 20px 0 30px 0;
+    }
+  }
+
+  .testing-assistance-section {
+    .testing-assistance-div {
+      padding: 70px 0 40px 0;
+
+      .img-banner-div {
+        margin: 0 0 30px 0;
+      }
+    }
+  }
+
+  .pricing-card-section {
+    .pricing-card-root {
+      max-width: 100%;
+      padding: 0 10px;
+
+      &::before {
+        top: -30px;
+        right: 0;
+        height: 100px;
+        width: 100px;
+      }
+
+      &::after {
+        bottom: -15px;
+        left: 0;
+        height: 100px;
+        width: 100px;
+      }
+
+      .pricing-card-box {
+        .pricing-card-box-top-div {
+          padding: 25px 20px;
+
+          p {
+            font-size: 16px;
+          }
+
+          h2 {
+            font-size: 34px;
+            line-height: 34px;
+
+            .txt-span {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .content-div {
+          padding: 25px 20px;
+
+          .custom-list-check-div {
+            .custom-list-check-ul {
+              li {
+                padding: 0 0 0 25px;
+              }
+            }
+          }
+        }
+
+        .button-group-div {
+          padding: 0 20px 20px 20px;
+        }
+      }
+    }
+  }
+
+  .contact-us-section {
+    .contact-us-div {
+      padding: 80px 0 80px 0;
+      margin: 0 0 0 0;
+    }
+
+    .contact-us-left-div {
+      padding: 0 0 50px 0;
+    }
+
+    .contact-form-card-div {
+      &::before {
+        right: 0;
+      }
+
+      .form-root-main {
+        padding: 20px;
+
+        .heading-txt-div {
+          margin: 0 0 20px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-banner-section {
+    min-height: 620px;
+
+    .banner-div {
+      min-height: inherit;
+    }
+
+    .content-banner-root {
+      padding: 0 0 70px 0;
+
+      .content-banner {
+        margin: 0 0 50px 0;
+      }
+
+      h1 {
+        font-size: 34px;
+        line-height: 42px;
+      }
+
+      .button-group-div {
+        .btn.btn-common {
+          &.min-width-230 {
+            min-width: auto;
+          }
+        }
+
+        .btn.btn-common-outline {
+          &.min-width-180 {
+            min-width: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .test-task-automation-section {
+    .img-banner-div {
+      width: 90%;
+    }
+  }
+
+  .pricing-card-section {
+    .pricing-card-root {
+      max-width: 100%;
+      padding: 0 10px;
+
+      &::before {
+        top: -30px;
+        right: 0;
+        height: 100px;
+        width: 100px;
+      }
+
+      &::after {
+        bottom: -15px;
+        left: 0;
+        height: 100px;
+        width: 100px;
+      }
+
+      .pricing-card-box {
+        .pricing-card-box-top-div {
+          padding: 25px 20px;
+
+          p {
+            font-size: 16px;
+          }
+
+          h2 {
+            font-size: 34px;
+            line-height: 34px;
+
+            .txt-span {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .content-div {
+          padding: 25px 20px;
+
+          .custom-list-check-div {
+            .custom-list-check-ul {
+              li {
+                padding: 0 0 0 25px;
+              }
+            }
+          }
+        }
+
+        .button-group-div {
+          padding: 0 20px 20px 20px;
+        }
+      }
+    }
+  }
+
+  .contact-us-section {
+    .contact-us-div {
+      padding: 80px 0 50px 0;
+    }
+
+    .contact-us-left-div {
+      padding: 0 0 50px 0;
+    }
+
+    .contact-form-card-div {
+      &::before {
+        right: 0;
+      }
+
+      .form-root-main {
+        padding: 20px;
+
+        .heading-txt-div {
+          margin: 0 0 20px 0;
+        }
+      }
+    }
+  }
+}

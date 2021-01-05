@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="384px" viewBox="0 0 344 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pattern-01</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#02B7DE" offset="0%"></stop>
+            <stop stop-color="#15BDE1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M273.272384,116.849947 C318.636592,166.947951 369.992299,219.038489 363.430181,262.020299 C356.868063,305.286757 292.388119,339.444487 234.755603,354.24617 C177.123087,369.047853 126.337999,364.778137 85.2534333,343.714203 C44.1688675,322.65027 12.7848241,284.792119 -1.4806501,238.679184 C-15.7461243,192.281601 -13.178339,137.344585 14.4966811,91.2316495 C42.4570106,45.4033619 95.5245748,8.11450678 141.744711,13.522814 C188.250157,18.9311213 227.622866,66.7519431 273.272384,116.849947 Z" id="pattern-01" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(177.000000, 188.000000) rotate(81.000000) translate(-177.000000, -188.000000) "></path>
+    </g>
+</svg>

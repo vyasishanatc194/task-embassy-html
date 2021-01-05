@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="356px" viewBox="0 0 210 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path Copy 5</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.2105551%" id="linearGradient-1">
+            <stop stop-color="#FAFAFA" offset="0%"></stop>
+            <stop stop-color="#F4F4F4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Layout002" transform="translate(0.000000, -771.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M124.650614,873.263789 C168.17685,915.06849 207.404199,972.415963 194.507536,1012.88077 C181.342193,1053.34558 115.515478,1076.92771 55.5997338,1102.11773 C-4.58469118,1127.03976 -59.1268263,1153.03371 -103.190423,1139.09881 C-146.98534,1124.89593 -180.570398,1070.49622 -198.57199,1008.05715 C-216.842262,945.3501 -219.797747,874.603683 -186.212688,834.674835 C-152.89631,795.013965 -82.7707076,786.170663 -24.1983654,795.281944 C34.3739768,804.393225 81.3930588,831.19111 124.650614,873.263789 Z" id="Path-Copy-5" transform="translate(-7.500000, 967.500000) rotate(-231.000000) translate(7.500000, -967.500000) "></path>
+        </g>
+    </g>
+</svg>

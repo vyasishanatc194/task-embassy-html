@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="8px" viewBox="0 0 148 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pattern-02</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.721569 0 0 0 0 0.870588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <circle id="path-2" cx="4" cy="4" r="4"></circle>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <circle id="path-4" cx="32" cy="4" r="4"></circle>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <circle id="path-6" cx="60" cy="4" r="4"></circle>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <circle id="path-8" cx="88" cy="4" r="4"></circle>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+        <circle id="path-10" cx="116" cy="4" r="4"></circle>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <circle id="path-12" cx="144" cy="4" r="4"></circle>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="8" fill="white">
+            <use xlink:href="#path-12"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="13,8">
+        <g id="pattern-02" transform="translate(-646.000000, -812.000000)" filter="url(#filter-1)">
+            <g transform="translate(646.000000, 812.000000)">
+                <use id="Oval" stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="2" xlink:href="#path-2"></use>
+                <use id="Oval-Copy-2" stroke="#FFFFFF" mask="url(#mask-5)" stroke-width="2" xlink:href="#path-4"></use>
+                <use id="Oval-Copy-3" stroke="#FFFFFF" mask="url(#mask-7)" stroke-width="2" xlink:href="#path-6"></use>
+                <use id="Oval-Copy-4" stroke="#FFFFFF" mask="url(#mask-9)" stroke-width="2" xlink:href="#path-8"></use>
+                <use id="Oval-Copy-5" stroke="#FFFFFF" mask="url(#mask-11)" stroke-width="2" xlink:href="#path-10"></use>
+                <use id="Oval-Copy-6" stroke="#FFFFFF" mask="url(#mask-13)" stroke-width="2" xlink:href="#path-12"></use>
+            </g>
+        </g>
+    </g>
+</svg>
